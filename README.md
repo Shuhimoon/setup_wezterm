@@ -1,0 +1,2 @@
+# wezterm
+Customizing background wezterm
