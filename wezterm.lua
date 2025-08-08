@@ -125,9 +125,9 @@ return {
 
     -- 常用快捷鍵設定
     -- 複製
-    -- { key = 'c', mods = 'LEADER', action = wezterm.action.CopyTo 'Clipboard' },
+    { key = 'c', mods = 'LEADER', action = wezterm.action.CopyTo 'Clipboard' },
     -- 貼上
-    -- { key = 'v', mods = 'LEADER', action = wezterm.action.PasteFrom 'Clipboard' },
+    { key = 'v', mods = 'LEADER', action = wezterm.action.PasteFrom 'Clipboard' },
   },
 
   -- 設定 LEADER 鍵為 CTRL+a，方便與 GNU Screen 或 tmux 相容
