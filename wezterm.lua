@@ -8,6 +8,7 @@ return {
 
   -- 主題顏色 "Catppuccin Macchiato"
   color_scheme = 'Dracula',
+  default_cursor_style = 'BlinkingUnderline',
   
   -- 設置字體顏色為黑色
   foreground_text_hsb = { hue = 0, saturation = 0, brightness = 0 },
@@ -48,8 +49,10 @@ return {
   -- 分頁欄放置在底部
   tab_bar_at_bottom = true,
   colors = {
+    selection_bg = '#DDDDDD',  -- 選取區塊背景色，淺灰色
+	selection_fg = '#000000',  -- 選取區塊文字顏色（黑色）
     tab_bar = {
-      background = '#CCCCCC', -- 設置分頁欄背景為更淺的灰色
+      background = '#CCCCCC', -- 設置分頁欄背景為淺灰色
       active_tab = {
         bg_color = '#CCCCCC', -- 活躍分頁背景
         fg_color = '#FFFFFF', -- 活躍分頁文字為白色
@@ -80,6 +83,7 @@ return {
     args = { 'ssh', 'shuhi@shuhi56'},
     },
   },
+  
 
 
   
