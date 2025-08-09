@@ -31,25 +31,32 @@ return {
      {
        source = {
 		-- 圖片路徑(建議使用絕對路徑)
-        File = 'C:/Users/shuhi/.config/wezterm/Desk.jpg',
+        File = 'C:/Users/shuhi/.config/wezterm/cat.jpg',
        },
 		-- 圖片縮放模式
         -- resize = "NoScale",
 
 		-- 圖片背景透明度
-       opacity = 0.15,
-     }
+       opacity = 0.1,
+     },
+	 {
+		source = { Color = 'rgba(128, 128, 128,0.5)' },  -- 灰色色，帶 50% 透明度
+		height = '100%',
+		width = '100%',
+	},
+	
   },
   
   -- 窗口設置
-  window_background_opacity = 0.3, -- 透明度
+  window_background_opacity = 0.9, -- 透明度
   win32_system_backdrop = 'Acrylic', -- 啟用 Windows Acrylic 模糊效果
+  
   
   
   -- 分頁欄放置在底部
   tab_bar_at_bottom = true,
   colors = {
-    selection_bg = '#DDDDDD',  -- 選取區塊背景色，淺灰色
+    selection_bg = '#FFFFFF',  -- 選取區塊背景色，淺灰色
 	selection_fg = '#000000',  -- 選取區塊文字顏色（黑色）
     tab_bar = {
       active_tab = {
