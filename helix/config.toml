@@ -32,7 +32,7 @@ render.space = "all"     # 空格
 render.tab = "all"       # TAB
 render.newline = "all"   # 換行 \n
 
-characters = { space = "·", tab = "→", newline = "⏎"}
+characters = { space = " ", tab = "-", newline = "⏎"}
 
 [editor.soft-wrap]
 enable = true
