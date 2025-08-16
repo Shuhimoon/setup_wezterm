@@ -8,10 +8,7 @@ return {
 
   -- 主題顏色 "Catppuccin Macchiato"
   color_scheme = 'Dracula',
-  default_cursor_style = 'BlinkingUnderline',
-  
-  -- 設置字體顏色為黑色
-  foreground_text_hsb = { hue = 0, saturation = 0, brightness = 0 },
+
   
   -- 模糊效果
   -- blur_behind_tab_bar = true,
@@ -34,17 +31,16 @@ return {
         File = 'C:/Users/shuhi/.config/wezterm/cat.jpg',
        },
 		-- 圖片縮放模式
-        -- resize = "NoScale",
+        --resize = "NoScale",
 
 		-- 圖片背景透明度
-       opacity = 0.1,
+       opacity = 0.3,
      },
 	 {
 		source = { Color = 'rgba(128, 128, 128,0.5)' },  -- 灰色色，帶 50% 透明度
 		height = '100%',
 		width = '100%',
 	},
-	
   },
   
   -- 窗口設置
@@ -56,6 +52,7 @@ return {
   -- 分頁欄放置在底部
   tab_bar_at_bottom = true,
   colors = {
+	foreground = '#000000',   -- 設置字體顏色為黑色
     selection_bg = '#FFFFFF',  -- 選取區塊背景色，淺灰色
 	selection_fg = '#000000',  -- 選取區塊文字顏色（黑色）
     tab_bar = {
@@ -69,6 +66,8 @@ return {
       },
     },
   },
+  
+
   
   -- 增強型分頁(支援圖標)
   use_fancy_tab_bar = true,
@@ -134,6 +133,8 @@ return {
     { key = 'c', mods = 'LEADER', action = wezterm.action.CopyTo 'Clipboard' },
     -- 貼上
     { key = 'v', mods = 'LEADER', action = wezterm.action.PasteFrom 'Clipboard' },
+	
+
   },
 
   -- 設定 LEADER 鍵為 CTRL+a，方便與 GNU Screen 或 tmux 相容
@@ -166,4 +167,5 @@ return {
   --   top = 0,
   --   bottom = 0,
   -- },
+  
 }
