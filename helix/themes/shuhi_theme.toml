@@ -18,7 +18,7 @@ name = "shuhi_theme"
 "constant" = { fg = "#d75f00" }                             # 常數：深橘
 
 # 其他可自訂項目（可省略）
-"ui.linenr" = { fg = "#5c5c5c" }           # 行號顏色
+"ui.linenr" = { fg = "#509b72" }           # 行號顏色
 "ui.selection" = { bg = "#504945" }        # 選取背景
 "ui.popup" = { fg = "white", bg = "#3c3836" }
 "ui.help" = { fg = "white", bg = "#3c3836" }
