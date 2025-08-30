@@ -20,3 +20,9 @@ end
 
 # Rust/Cargo 路徑
 set -gx PATH $PATH ~/.cargo/bin
+
+#Ctrl+s切換至root
+function fish_user_key_bindings
+    bind \cs 'commandline -r "sudo su"; commandline -f execute' # Ctrl+S 進 root
+    bind \ce 'commandline -r "exit"; commandline -f execute' # Ctrl+E 退出
+end
