@@ -247,6 +247,7 @@ local config = {
 	},
 	
     default_cwd = "D:\\Shuhi\\weztmp", -- 預設啟動目錄 = 使用者家目錄
+	-- default_prog = { 'E:\\ProgramFiles(x64)\\Cygwin\\bin\\fish.exe'} --預設啟動fish shell
 }
 
 -- 回傳 config
