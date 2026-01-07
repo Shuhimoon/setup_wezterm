@@ -169,8 +169,8 @@ local keys = {
 	
 	
 	-- 透明度
-    { key = ']', mods = 'CTRL', action = wezterm.action.EmitEvent 'increment-opacity' },  -- Ctrl+] 提高不透明度
-    { key = '[', mods = 'CTRL', action = wezterm.action.EmitEvent 'decrement-opacity' },  -- Ctrl+[ 降低不透明度
+    { key = ']', mods = 'LEADER', action = wezterm.action.EmitEvent 'increment-opacity' },  -- Ctrl+] 提高不透明度
+    { key = '[', mods = 'LEADER', action = wezterm.action.EmitEvent 'decrement-opacity' },  -- Ctrl+[ 降低不透明度
 	
 	-- 常用快捷鍵設定
     -- 複製
